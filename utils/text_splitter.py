@@ -1,7 +1,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from config.config import CHUNK_SIZE, CHUNK_OVERLAP

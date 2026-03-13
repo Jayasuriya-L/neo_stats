@@ -3,6 +3,9 @@
 
 # Python
 __pycache__/
+utils/__pycache__/
+models/__pycache__/
+config/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd

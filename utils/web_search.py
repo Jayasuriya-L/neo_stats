@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 from config.config import MAX_SEARCH_RESULTS
 
 
@@ -29,6 +29,7 @@ def web_search(query, max_results=None):
             href = result.get("href", "")
             context_parts.append(f"[Result {i}] {title}\n{body}\nSource: {href}")
 
+        print(f"Web search context:\n{context_parts}")  # Debugging output
         return "\n\n".join(context_parts)
 
     except Exception as e:

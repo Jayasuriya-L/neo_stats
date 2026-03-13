@@ -20,7 +20,7 @@ faiss-cpu
 pypdf
 
 # Web search (free, no API key needed)
-duckduckgo-search
+ddgs
 
 # Environment variable management
 python-dotenv

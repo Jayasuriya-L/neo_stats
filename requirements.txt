@@ -1,0 +1,26 @@
+# Core
+streamlit
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-openai
+langchain-google-genai
+langchain-text-splitters
+
+# Embeddings (local, no API key needed)
+sentence-transformers
+
+# Vector store
+faiss-cpu
+
+# Document loaders
+pypdf
+
+# Web search (free, no API key needed)
+duckduckgo-search
+
+# Environment variable management
+python-dotenv

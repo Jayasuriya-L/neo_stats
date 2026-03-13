@@ -33,7 +33,7 @@ def build_system_prompt(mode, rag_context=None, web_context=None):
         base += "\n\nUse the following document context to answer the question:\n" + rag_context
 
     if web_context:
-        base += "\n\nUse the following real-time web search results to supplement your answer:\n" + web_context
+        base += "\n\nUse the following real-time web search results to supplement your answer, display the  web link sources at the end with clickable hyperlink mode format:\n" + web_context
 
     return base
 

@@ -2,7 +2,7 @@ import os
 import sys
 
 # Add project root to path so config can be imported
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from config.config import EMBEDDING_MODEL

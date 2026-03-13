@@ -3,7 +3,7 @@ import os
 import sys
 import tempfile
 
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+# sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from models.llm import get_chatgroq_model
